@@ -16,8 +16,14 @@ void main(){
   print(councilOne.car);
   councilOne.display();
 
+  StudentCouncil vicePresident = StudentCouncil('haile', 23, true);
+  print(vicePresident.name);
+  print("${vicePresident.age}  car:   ${vicePresident.car}");
+  vicePresident.display();
+
 }
 
+// creating a class with properties and attributes
 class Student {
 
   late String name;
