@@ -49,6 +49,8 @@ class Student {
 
 class StudentCouncil extends Student{
 
+  //since it inherits the previous class it has all it's properties
+
 // we have to create a constructor that enables that fetches the property from the previous or extended class
   StudentCouncil(String first_name, int current_age, bool cars) : super(first_name, current_age, cars);
 
