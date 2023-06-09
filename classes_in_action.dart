@@ -16,11 +16,12 @@ void main(){
 
 class Animals{
   // creating the properties for the class animals
+  // we are making the parameteres late because they are non-nullable but not known yet
 
-  String common_name;
-  String scientific_name;
-  bool domesticated;
-  int age;
+  late String common_name;
+  late String scientific_name;
+  late bool domesticated;
+  late int age;
 
   Animals(String c_name, String s_name, bool domestic, int age){
     this.common_name = c_name;
